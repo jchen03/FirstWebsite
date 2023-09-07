@@ -15,10 +15,9 @@ header {
 }
 .navbar{
     float: right;
-    display: flex;
-    align-items: center; 
+    display : inline-flexbox;
+    align-items : center;
 }
-
 .logo{
     float: left;
     height: 100px;
@@ -29,8 +28,8 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: blueviolet;
-    display: inline;
 }
+
 
   
   
