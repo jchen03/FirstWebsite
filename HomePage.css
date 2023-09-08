@@ -4,22 +4,23 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Background.jpg");
+    background-repeat: repeat-y;
   }
   
-  /* Style the header */
 header {
     background-color: lightblue;
     font-size: 35px;
     height: 140px;
     padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 .navbar{
-    float: right;
-    display : inline-flexbox;
-    align-items : center;
+    display: flex;
 }
 .logo{
-    float: left;
     height: 100px;
     width: 100px;
 }
@@ -28,6 +29,8 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
